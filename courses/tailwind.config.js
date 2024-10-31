@@ -5,7 +5,14 @@ module.exports = {
     "./public/index.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        brand:{
+          DEFAULT:"#5c1b86",
+          light:"#d7c7e4",
+        },
+      }, 
+    },
   },
   plugins: [],
 }
