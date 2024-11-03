@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.course-icons{
+    @apply text-brand mr-2 ml-10 mb-1
+}
+.course-details span{
+    @apply text-base text-gray-500
+}
+#active{
+    @apply  bg-brand-light font-bold text-brand
+}
+#selected{
+    @apply border-l-4 border-l-brand
+}

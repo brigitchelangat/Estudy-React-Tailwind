@@ -1,5 +1,6 @@
 import React from "react";
-import { BsGrid, BsGear, BsChatDots, BsCardChecklist } from "react-icons/bs";
+import { BsGrid, BsCardChecklist, BsPeopleFill, BsListUl, 
+    BsFillStarFill, BsPersonWorkspace, BsBookmarkDash,BsFileText } from "react-icons/bs";
 
 export const NavigationData = [
     {
@@ -8,18 +9,41 @@ export const NavigationData = [
         link: "/dashboard"
     },
     {
-        title: "Course",
+        title: "Courses",
         icon: <BsCardChecklist />,
-        link: "/course"
+        link: "/courses"
     },
     {
-        title: "Chat",
-        icon: <BsChatDots />,
-        link: "/chat"
+        title: "Resources",
+        icon: <BsBookmarkDash />,
+        link: "/resources"
     },
     {
-        title: "Settings",
-        icon: <BsGear />,
-        link: "/settings"
+        title: "Webinars",
+        icon: <BsPersonWorkspace />,
+        link: "/webinars"
+    },
+    {
+        title: "Blogs",
+        icon: <BsFileText />,
+        link: "/blogs"
+    }
+]
+
+export const CourseInfo = [
+    {
+        title:"learners",
+        no: "45",
+        icon: <BsPeopleFill />
+    },
+    {
+        title:"lessons",
+        no: "15",
+        icon: <BsListUl />
+    },
+    {
+        title:"rating",
+        no:"4.5",
+        icon: <BsFillStarFill />
     }
 ]

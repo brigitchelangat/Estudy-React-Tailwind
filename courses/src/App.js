@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Course from './components/Course';
+import './App.css';
 import Navigation from './components/Navigation';
 export default function App() {
   return (

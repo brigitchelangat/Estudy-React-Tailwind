@@ -11,6 +11,9 @@ module.exports = {
           DEFAULT:"#5c1b86",
           light:"#d7c7e4",
         },
+      },
+      width:{
+        '97': "97%"
       }, 
     },
   },
