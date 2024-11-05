@@ -10,7 +10,7 @@ import { FaSearch, FaFilter, FaToggleOn } from "react-icons/fa";
 import { BsClock, BsGlobe, BsHouseDoor, BsPerson   } from "react-icons/bs";
 import { CourseInfo } from "./NavigationData";
 
-const Course = () => {
+const Courses = () => {
   const [courses, setCourses] = useState([]);
   useEffect(() => {
     setCourses(allCourses.courses);
@@ -112,4 +112,4 @@ const Course = () => {
     </div>
   );
 };
-export default Course;
+export default Courses;
