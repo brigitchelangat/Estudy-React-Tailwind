@@ -13,21 +13,17 @@ import { BrowserRouter , Routes, Route } from "react-router-dom";
 export default function App() {
   return (
     <div className="App w-full h-full flex flex-row">
-      <Navigation/>
+      <Navigation />
       <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Dashboard />}>
-          <Route path="dashboard" element={<Dashboard />} />
-          <Route path="courses" element={<Courses />} />
-          <Route path="resources" element={<Resources />} />
-          <Route path="webinars" element={<Webinars />} />
-          <Route path="blogs" element={<Blogs />} />       
-        </Route>
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/webinars" element={<Webinars />} />
+          <Route path="/blogs" element={<Blogs />} />
+        </Routes>
       </BrowserRouter>
-      <Courses/>
-      
-      
     </div>
   );
 }
