@@ -8,6 +8,7 @@ import Webinars from './components/Webinars';
 import Blogs from './components/Blogs';
 import Resources from './components/Resources';
 import { BrowserRouter , Routes, Route } from "react-router-dom";
+import CourseDetails from './components/CourseDetails';
 
 
 export default function App() {
@@ -19,6 +20,10 @@ export default function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/courses" element={<Courses />} />
+          <Route path='/courses/:courseSlug' element={<CourseDetails/>}/>
+          <Route path="/courses" element={<Courses />}>
+            <Route path=':courseSlug' element={<CourseDetails/>}/>
+          </Route>
           <Route path="/resources" element={<Resources />} />
           <Route path="/webinars" element={<Webinars />} />
           <Route path="/blogs" element={<Blogs />} />

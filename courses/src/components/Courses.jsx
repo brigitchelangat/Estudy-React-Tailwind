@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import allCourses from "../data/courses.json";
 import defaultI from "../assets/images/default.png"
 import SE from "../assets/images/SE.jpg";
@@ -62,18 +63,16 @@ const Courses = () => {
         courses.map((course) => (
         
         <div
-          className="course-card grid grid-cols-6 bg-white m-2.5 p-2.5 rounded-xl cursor-pointer
-          rounded-l-none min-h-[100px] w-97 h-[240px]"
+          className="grid grid-cols-6 bg-white m-2.5 p-2.5 rounded-xl cursor-pointer
+          rounded-l-none min-h-[100px] w-97 h-[240px] hover:border-l-4 hover:border-l-brand-light active:border-l-4 active:border-l-brand"
           id={window.location.pathname === `/${course.id}` ? "selected" : ""}
-          onClick={() => {
-            window.location.pathname = `/${course.id}`;
-          }}
+          
         >
           <div className="lg:col-span-1 h-[220px] hidden lg:block ">
           <img src={getCourseImage(course.domain)} alt="Course" className="h-5/6 m-2 w-full rounded-md" />
           </div>
-          <div className="course-details sm:col-span-6 md:col-span-4 lg:col-span-4 h-[220px] p-5 pt-2">
-            <p className="font-semibold text-gray-900 text-xl pb-3">{course.title}</p>
+          <div className="sm:col-span-6 md:col-span-4 lg:col-span-4 h-[220px] p-5 pt-2">
+            <Link to={course.slug} className="font-semibold text-gray-900 text-xl pb-3 block hover:text-brand">{course.title}</Link>
             <BsPerson className="text-brand mr-2 mb-1 ml-0 inline-block" size={17} />
             <span>{course.instructor}</span>
             <BsClock className="course-icons inline-block" size={15} />

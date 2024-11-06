@@ -3,6 +3,7 @@
         {
             "id": 1,
             "course_code": "SE101",
+            "slug": "python-basics",
             "title": "Programming Basics with Python",
             "domain": "Software Engineering",
             "lessons": 12,
@@ -20,6 +21,7 @@
         {
             "id": 2,
             "course_code": "SE102",
+            "slug": "sql-basics",
             "title": "SQL Basics",
             "domain": "Software Engineering",
             "lessons": 10,
@@ -37,6 +39,7 @@
         {
             "id": 3,
             "course_code": "SE103",
+            "slug": "git-basics",
             "title": "Git & GitHub Basics",
             "domain": "Software Engineering",
             "lessons": 8,
@@ -54,6 +57,7 @@
         {
             "id": 4,
             "course_code": "SE104",
+            "slug": "dsa-basics",
             "title": "Data Structures & Algorithms Basics",
             "domain": "Software Engineering",
             "lessons": 15,
@@ -71,6 +75,7 @@
         {
             "id": 5,
             "course_code": "SE105",
+            "slug": "sad-basics",
             "title": "System Design & Analysis",
             "domain": "Software Engineering",
             "lessons": 18,
@@ -88,6 +93,7 @@
         {
             "id": 6,
             "course_code": "UI101",
+            "slug": "ui-ux-basics",
             "title": "UI/UX Design Basics",
             "domain": "User Interface Design",
             "lessons": 10,
@@ -105,6 +111,7 @@
         {
             "id": 7,
             "course_code": "WB101",
+            "slug": "web-basics",
             "title": "Web Design Basics",
             "domain": "Web Development",
             "lessons": 12,
@@ -122,6 +129,7 @@
         {
             "id": 8,
             "course_code": "CC101",
+            "slug": "cloud-basics",
             "title": "Cloud Computing Basics",
             "domain": "Cloud Computing",
             "lessons": 15,
@@ -139,6 +147,7 @@
         {
             "id": 9,
             "course_code": "DS101",
+            "slug": "data-science-basics",
             "title": "Data Science Basics",
             "domain": "Data Science",
             "lessons": 20,
@@ -156,6 +165,7 @@
         {
             "id": 10,
             "course_code": "AI101",
+            "slug": "ai-basics",
             "title": "Artificial Intelligence Basics",
             "domain": "Artificial Intelligence",
             "lessons": 18,
@@ -170,5 +180,5 @@
             "status": "published",
             "location": "online"
         }
-      ]
+        ]
 }
