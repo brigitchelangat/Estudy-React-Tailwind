@@ -1,11 +1,13 @@
 *{
     box-sizing: border-box;
+    font-family: 'Century Gothic',sans-serif !important;
 }
 body{
     height: 100vh;
     width: 100%;
     margin: 0;
     padding: 0;
+    overflow-y: scroll !important;
 }
 .course-icons{
     @apply text-brand mr-2 ml-10 mb-1

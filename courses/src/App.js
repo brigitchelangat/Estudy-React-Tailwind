@@ -14,7 +14,7 @@ import CourseDetails from './components/CourseDetails';
 export default function App() {
   return (
     <div className="App w-full h-full flex flex-row">
-      <Navigation />
+      {/* <Navigation /> */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Dashboard />} />

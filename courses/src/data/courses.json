@@ -3,7 +3,7 @@
         {
             "id": 1,
             "course_code": "SE101",
-            "slug": "python-basics",
+            "slug": "Programming-Basics-with-Python",
             "title": "Programming Basics with Python",
             "domain": "Software Engineering",
             "lessons": 12,
@@ -16,12 +16,13 @@
             "modified_by": "Admin",
             "completion_rate": "100%",
             "status": "published",
+            "about": "This course introduces the fundamentals of programming through Python, a beginner-friendly language known for its simplicity. Participants will learn essential programming concepts, such as variables, loops, functions, and data types, over 12 lessons and 30 hours. Ideal for beginners, it covers Python's applications in automation and basic scripting, building a foundation for software engineering. Led by instructor Ngeno Victor, this online course is structured to achieve a 100% completion rate, making it a comprehensive start for anyone new to programming.",
             "location": "online"
         },
         {
             "id": 2,
             "course_code": "SE102",
-            "slug": "sql-basics",
+            "slug": "SQL-Basics",
             "title": "SQL Basics",
             "domain": "Software Engineering",
             "lessons": 10,
@@ -34,12 +35,13 @@
             "modified_by": "Admin",
             "completion_rate": "70%",
             "status": "published",
+            "about": "SQL Basics offers an introduction to Structured Query Language (SQL), essential for managing and querying relational databases. In this course, learners dive into database fundamentals, including how to create, read, update, and delete data using SQL commands. Over 10 lessons and 25 hours, students will develop practical skills in database management, enabling them to handle real-world data challenges. This course, taught by Ngeno Victor, is conducted in a physical location and supports foundational knowledge for aspiring data analysts and software engineers.",
             "location": "physical"
         },
         {
             "id": 3,
             "course_code": "SE103",
-            "slug": "git-basics",
+            "slug": "Git-GitHub-Basics",
             "title": "Git & GitHub Basics",
             "domain": "Software Engineering",
             "lessons": 8,
@@ -52,12 +54,13 @@
             "modified_by": "Admin",
             "completion_rate": "100%",
             "status": "published",
+            "about": "This course covers the basics of version control with Git and collaborative project hosting with GitHub. Over 8 lessons and 20 hours, students learn to track code changes, collaborate on projects, and manage version history, which is vital in professional software development. Instructor Ngeno Victor guides students through practical Git commands and GitHub workflows, equipping them to contribute to open-source projects or manage personal coding projects effectively. This online course provides a 100% completion rate, offering essential skills for modern developers.",
             "location": "online"
         },
         {
             "id": 4,
             "course_code": "SE104",
-            "slug": "dsa-basics",
+            "slug": "Data-Structures-Algorithms-Basics",
             "title": "Data Structures & Algorithms Basics",
             "domain": "Software Engineering",
             "lessons": 15,
@@ -70,12 +73,13 @@
             "modified_by": "Admin",
             "completion_rate": "60%",
             "status": "published",
+            "about": "This course introduces foundational concepts in data structures and algorithms, which are crucial for problem-solving in software engineering. Over 15 lessons and 40 hours, students learn about arrays, linked lists, stacks, queues, and algorithms for searching and sorting. Instructor Ngeno Victor provides practical applications, enabling students to understand and implement efficient data organization and manipulation methods. Held in a physical setting, this course emphasizes a solid grasp of computational thinking, with a 60% completion rate among participants.",
             "location": "physical"
         },
         {
             "id": 5,
             "course_code": "SE105",
-            "slug": "sad-basics",
+            "slug": "System-Design-Analysis",
             "title": "System Design & Analysis",
             "domain": "Software Engineering",
             "lessons": 18,
@@ -88,12 +92,13 @@
             "modified_by": "Admin",
             "completion_rate": "34%",
             "status": "published",
+            "about": "System Design & Analysis provides an overview of designing scalable and maintainable systems. This 18-lesson, 45-hour course covers core principles of system architecture, data flow, and component interaction. With a focus on analysis techniques, students learn to create systems that meet specified requirements and are robust against challenges. Instructor Ngeno Victor offers insights into building large-scale applications, making it suitable for intermediate developers. Conducted online, the course has a 34% completion rate, reflecting its challenging nature and focus on advanced concepts.",
             "location": "online"
         },
         {
             "id": 6,
             "course_code": "UI101",
-            "slug": "ui-ux-basics",
+            "slug": "UI-UX-Design-Basics",
             "title": "UI/UX Design Basics",
             "domain": "User Interface Design",
             "lessons": 10,
@@ -106,12 +111,13 @@
             "modified_by": "Admin",
             "completion_rate": "40%",
             "status": "published",
+            "about": "UI/UX Design Basics introduces principles of user interface (UI) and user experience (UX) design, ideal for beginners interested in crafting intuitive and engaging digital products. Over 10 lessons and 25 hours, learners explore design theory, wireframing, and usability testing. Instructor Brigit Chelangat guides participants in understanding user-centered design, providing tools to create effective, aesthetically pleasing interfaces. This online course supports aspiring designers with foundational skills to start a career in digital product design, achieving a 40% completion rate.",
             "location": "online"
         },
         {
             "id": 7,
             "course_code": "WB101",
-            "slug": "web-basics",
+            "slug": "Web-Design-Basics",
             "title": "Web Design Basics",
             "domain": "Web Development",
             "lessons": 12,
@@ -124,12 +130,13 @@
             "modified_by": "Admin",
             "completion_rate": "50%",
             "status": "published",
+            "about": "Web Design Basics provides a beginner-friendly introduction to creating functional and visually appealing websites. This 12-lesson, 30-hour course covers HTML, CSS, and introductory JavaScript for designing interactive web pages. Under the guidance of Ngeno Victor, students learn the principles of responsive and accessible design. The course is conducted in a physical setting, providing hands-on practice and real-time feedback. With a 50% completion rate, it offers a strong start for those interested in web development or digital design.",
             "location": "physical"
         },
         {
             "id": 8,
             "course_code": "CC101",
-            "slug": "cloud-basics",
+            "slug": "Cloud-Computing-Basics",
             "title": "Cloud Computing Basics",
             "domain": "Cloud Computing",
             "lessons": 15,
@@ -142,12 +149,13 @@
             "modified_by": "Admin",
             "completion_rate": "100%",
             "status": "published",
+            "about": "Cloud Computing Basics introduces essential concepts in cloud technology, including virtualization, cloud storage, and scalable infrastructure. Over 15 lessons and 35 hours, instructor Roy Kiprop guides students through cloud services like AWS, Azure, and Google Cloud, providing foundational skills for deploying and managing applications in the cloud. This online course is ideal for those new to cloud computing, offering a complete learning path with a 100% completion rate, paving the way for careers in cloud architecture and deployment.",
             "location": "online"
         },
         {
             "id": 9,
             "course_code": "DS101",
-            "slug": "data-science-basics",
+            "slug": "Data-Science-Basics",
             "title": "Data Science Basics",
             "domain": "Data Science",
             "lessons": 20,
@@ -160,12 +168,13 @@
             "modified_by": "Admin",
             "completion_rate": "30%",
             "status": "published",
+            "about": "Data Science Basics covers fundamental skills for analyzing and interpreting data, geared towards aspiring data scientists. This 20-lesson, 50-hour course explores statistical analysis, data cleaning, and basic machine learning concepts. Instructor Roy Kiprop introduces popular tools like Python and Jupyter notebooks, making data handling accessible for beginners. With a 30% completion rate, this physical course provides practical knowledge, preparing students for further study in data science or related fields.",
             "location": "physical"
         },
         {
             "id": 10,
             "course_code": "AI101",
-            "slug": "ai-basics",
+            "slug": "Artificial-Intelligence-Basics",
             "title": "Artificial Intelligence Basics",
             "domain": "Artificial Intelligence",
             "lessons": 18,
@@ -178,6 +187,7 @@
             "modified_by": "Admin",
             "completion_rate": "10%",
             "status": "published",
+            "about": "Artificial Intelligence Basics explores introductory AI concepts, including machine learning, neural networks, and AI applications. With 18 lessons and 40 hours, instructor Brigit Chelangat guides students through foundational AI techniques and ethical considerations. This online course covers essential AI theory, equipping learners with the knowledge to apply AI in various fields. Though challenging, it’s designed for beginners, and with a 10% completion rate, it lays a strong foundation for further studies in AI and machine learning.",
             "location": "online"
         }
         ]

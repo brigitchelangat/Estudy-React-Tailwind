@@ -64,7 +64,7 @@ const Courses = () => {
         
         <div
           className="grid grid-cols-6 bg-white m-2.5 p-2.5 rounded-xl cursor-pointer
-          rounded-l-none min-h-[100px] w-97 h-[240px] hover:border-l-4 hover:border-l-brand-light active:border-l-4 active:border-l-brand"
+          rounded-l-none min-h-[100px] w-97 h-[240px] hover:border-l-4 hover:border-l-brand-light active:border-l-4 active:border-l-brandt"
           id={window.location.pathname === `/${course.id}` ? "selected" : ""}
           
         >
@@ -72,7 +72,7 @@ const Courses = () => {
           <img src={getCourseImage(course.domain)} alt="Course" className="h-5/6 m-2 w-full rounded-md" />
           </div>
           <div className="sm:col-span-6 md:col-span-4 lg:col-span-4 h-[220px] p-5 pt-2">
-            <Link to={course.slug} className="font-semibold text-gray-900 text-xl pb-3 block hover:text-brand">{course.title}</Link>
+            <Link to={course.slug} state={{courseId:course.id}} className="font-semibold text-gray-900 text-xl pb-3 block hover:text-brand">{course.title}</Link>
             <BsPerson className="text-brand mr-2 mb-1 ml-0 inline-block" size={17} />
             <span>{course.instructor}</span>
             <BsClock className="course-icons inline-block" size={15} />
