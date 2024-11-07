@@ -17,7 +17,8 @@
             "completion_rate": "100%",
             "status": "published",
             "about": "This course introduces the fundamentals of programming through Python, a beginner-friendly language known for its simplicity. Participants will learn essential programming concepts, such as variables, loops, functions, and data types, over 12 lessons and 30 hours. Ideal for beginners, it covers Python's applications in automation and basic scripting, building a foundation for software engineering. Led by instructor Ngeno Victor, this online course is structured to achieve a 100% completion rate, making it a comprehensive start for anyone new to programming.",
-            "location": "online"
+            "location": "online",
+            "rating": 4.5
         },
         {
             "id": 2,
@@ -36,7 +37,8 @@
             "completion_rate": "70%",
             "status": "published",
             "about": "SQL Basics offers an introduction to Structured Query Language (SQL), essential for managing and querying relational databases. In this course, learners dive into database fundamentals, including how to create, read, update, and delete data using SQL commands. Over 10 lessons and 25 hours, students will develop practical skills in database management, enabling them to handle real-world data challenges. This course, taught by Ngeno Victor, is conducted in a physical location and supports foundational knowledge for aspiring data analysts and software engineers.",
-            "location": "physical"
+            "location": "physical",
+            "rating": 4.1
         },
         {
             "id": 3,
@@ -55,7 +57,8 @@
             "completion_rate": "100%",
             "status": "published",
             "about": "This course covers the basics of version control with Git and collaborative project hosting with GitHub. Over 8 lessons and 20 hours, students learn to track code changes, collaborate on projects, and manage version history, which is vital in professional software development. Instructor Ngeno Victor guides students through practical Git commands and GitHub workflows, equipping them to contribute to open-source projects or manage personal coding projects effectively. This online course provides a 100% completion rate, offering essential skills for modern developers.",
-            "location": "online"
+            "location": "online",
+            "rating": 4.0
         },
         {
             "id": 4,
@@ -74,7 +77,8 @@
             "completion_rate": "60%",
             "status": "published",
             "about": "This course introduces foundational concepts in data structures and algorithms, which are crucial for problem-solving in software engineering. Over 15 lessons and 40 hours, students learn about arrays, linked lists, stacks, queues, and algorithms for searching and sorting. Instructor Ngeno Victor provides practical applications, enabling students to understand and implement efficient data organization and manipulation methods. Held in a physical setting, this course emphasizes a solid grasp of computational thinking, with a 60% completion rate among participants.",
-            "location": "physical"
+            "location": "physical",
+            "rating": 4.2
         },
         {
             "id": 5,
@@ -93,7 +97,8 @@
             "completion_rate": "34%",
             "status": "published",
             "about": "System Design & Analysis provides an overview of designing scalable and maintainable systems. This 18-lesson, 45-hour course covers core principles of system architecture, data flow, and component interaction. With a focus on analysis techniques, students learn to create systems that meet specified requirements and are robust against challenges. Instructor Ngeno Victor offers insights into building large-scale applications, making it suitable for intermediate developers. Conducted online, the course has a 34% completion rate, reflecting its challenging nature and focus on advanced concepts.",
-            "location": "online"
+            "location": "online",
+            "rating": 4.7
         },
         {
             "id": 6,
@@ -112,7 +117,8 @@
             "completion_rate": "40%",
             "status": "published",
             "about": "UI/UX Design Basics introduces principles of user interface (UI) and user experience (UX) design, ideal for beginners interested in crafting intuitive and engaging digital products. Over 10 lessons and 25 hours, learners explore design theory, wireframing, and usability testing. Instructor Brigit Chelangat guides participants in understanding user-centered design, providing tools to create effective, aesthetically pleasing interfaces. This online course supports aspiring designers with foundational skills to start a career in digital product design, achieving a 40% completion rate.",
-            "location": "online"
+            "location": "online",
+            "rating": 4.0
         },
         {
             "id": 7,
@@ -150,7 +156,8 @@
             "completion_rate": "100%",
             "status": "published",
             "about": "Cloud Computing Basics introduces essential concepts in cloud technology, including virtualization, cloud storage, and scalable infrastructure. Over 15 lessons and 35 hours, instructor Roy Kiprop guides students through cloud services like AWS, Azure, and Google Cloud, providing foundational skills for deploying and managing applications in the cloud. This online course is ideal for those new to cloud computing, offering a complete learning path with a 100% completion rate, paving the way for careers in cloud architecture and deployment.",
-            "location": "online"
+            "location": "online",
+            "rating": 3.5
         },
         {
             "id": 9,
@@ -169,7 +176,8 @@
             "completion_rate": "30%",
             "status": "published",
             "about": "Data Science Basics covers fundamental skills for analyzing and interpreting data, geared towards aspiring data scientists. This 20-lesson, 50-hour course explores statistical analysis, data cleaning, and basic machine learning concepts. Instructor Roy Kiprop introduces popular tools like Python and Jupyter notebooks, making data handling accessible for beginners. With a 30% completion rate, this physical course provides practical knowledge, preparing students for further study in data science or related fields.",
-            "location": "physical"
+            "location": "physical",
+            "rating": 4.0
         },
         {
             "id": 10,
@@ -188,7 +196,523 @@
             "completion_rate": "10%",
             "status": "published",
             "about": "Artificial Intelligence Basics explores introductory AI concepts, including machine learning, neural networks, and AI applications. With 18 lessons and 40 hours, instructor Brigit Chelangat guides students through foundational AI techniques and ethical considerations. This online course covers essential AI theory, equipping learners with the knowledge to apply AI in various fields. Though challenging, it’s designed for beginners, and with a 10% completion rate, it lays a strong foundation for further studies in AI and machine learning.",
-            "location": "online"
+            "location": "online",
+            "rating": 4.6
         }
-        ]
+        ],
+
+        "content": [
+            {
+              "course_id": 1,
+              "modules": [
+                {
+                  "id": 1,
+                  "title": "Introduction to Python",
+                  "lessons": [
+                    { "id": 1, "title": "Python Syntax and Basics" },
+                    { "id": 2, "title": "Setting up Python Environment" },
+                    { "id": 3, "title": "Writing Your First Python Program" }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "title": "Data Types and Variables",
+                  "lessons": [
+                    { "id": 1, "title": "Working with Numbers and Strings" },
+                    { "id": 2, "title": "Understanding Variables and Constants" }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "title": "Control Flow in Python",
+                  "lessons": [
+                    { "id": 1, "title": "If Statements" },
+                    { "id": 2, "title": "Loops (For and While)" },
+                    { "id": 3, "title": "Using Break and Continue" },
+                    { "id": 4, "title": "Nested Loops" }
+                  ]
+                },
+                {
+                  "id": 4,
+                  "title": "Functions in Python",
+                  "lessons": [
+                    { "id": 1, "title": "Defining Functions" },
+                    { "id": 2, "title": "Parameters and Return Values" },
+                    { "id": 3, "title": "Lambda Functions" }
+                  ]
+                },
+                {
+                  "id": 5,
+                  "title": "Error Handling",
+                  "lessons": [
+                    { "id": 1, "title": "Try and Except Blocks" },
+                    { "id": 2, "title": "Common Exceptions in Python" },
+                    { "id": 3, "title": "Custom Exceptions" },
+                    { "id": 4, "title": "Best Practices in Error Handling" },
+                    { "id": 5, "title": "Debugging Techniques" }
+                  ]
+                }
+              ]
+            },
+            {
+              "course_id": 2,
+              "modules": [
+                {
+                  "id": 1,
+                  "title": "Introduction to Databases",
+                  "lessons": [
+                    { "id": 1, "title": "Database Concepts" },
+                    { "id": 2, "title": "SQL and Relational Databases" }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "title": "Basic SQL Commands",
+                  "lessons": [
+                    { "id": 1, "title": "SELECT Statements" },
+                    { "id": 2, "title": "Filtering with WHERE Clause" },
+                    { "id": 3, "title": "Sorting and Limiting Results" }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "title": "Aggregations and Grouping",
+                  "lessons": [
+                    { "id": 1, "title": "GROUP BY and HAVING Clauses" },
+                    { "id": 2, "title": "Aggregate Functions" },
+                    { "id": 3, "title": "COUNT, SUM, AVG Functions" },
+                    { "id": 4, "title": "Combining Aggregations" }
+                  ]
+                },
+                {
+                  "id": 4,
+                  "title": "Joins in SQL",
+                  "lessons": [
+                    { "id": 1, "title": "INNER JOIN" },
+                    { "id": 2, "title": "LEFT JOIN and RIGHT JOIN" },
+                    { "id": 3, "title": "FULL OUTER JOIN" },
+                    { "id": 4, "title": "Self Joins" }
+                  ]
+                },
+                {
+                  "id": 5,
+                  "title": "Subqueries and Advanced SQL",
+                  "lessons": [
+                    { "id": 1, "title": "Using Subqueries" },
+                    { "id": 2, "title": "Correlated Subqueries" },
+                    { "id": 3, "title": "Advanced Filtering with EXISTS" },
+                    { "id": 4, "title": "Window Functions" },
+                    { "id": 5, "title": "Common Table Expressions (CTEs)" }
+                  ]
+                }
+              ]
+            },
+            {
+              "course_id": 3,
+              "modules": [
+                {
+                  "id": 1,
+                  "title": "Introduction to Version Control",
+                  "lessons": [
+                    { "id": 1, "title": "Why Version Control?" },
+                    { "id": 2, "title": "Introduction to Git" }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "title": "Basic Git Commands",
+                  "lessons": [
+                    { "id": 1, "title": "Creating Repositories" },
+                    { "id": 2, "title": "Committing Changes" },
+                    { "id": 3, "title": "Viewing Commit History" }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "title": "Branching in Git",
+                  "lessons": [
+                    { "id": 1, "title": "Creating Branches" },
+                    { "id": 2, "title": "Switching and Merging Branches" },
+                    { "id": 3, "title": "Handling Merge Conflicts" },
+                    { "id": 4, "title": "Deleting Branches" }
+                  ]
+                },
+                {
+                  "id": 4,
+                  "title": "Working with GitHub",
+                  "lessons": [
+                    { "id": 1, "title": "Pushing to GitHub" },
+                    { "id": 2, "title": "Creating Pull Requests" },
+                    { "id": 3, "title": "Code Reviews and Merging" },
+                    { "id": 4, "title": "Managing Issues" }
+                  ]
+                },
+                {
+                  "id": 5,
+                  "title": "Advanced Git Commands",
+                  "lessons": [
+                    { "id": 1, "title": "Rebasing" },
+                    { "id": 2, "title": "Stashing Changes" },
+                    { "id": 3, "title": "Using Tags" },
+                    { "id": 4, "title": "Cherry-picking Commits" },
+                    { "id": 5, "title": "Amending Commits" }
+                  ]
+                }
+              ]
+            },
+            {
+              "course_id": 4,
+              "modules": [
+                {
+                  "id": 1,
+                  "title": "Introduction to Data Structures",
+                  "lessons": [
+                    { "id": 1, "title": "What are Data Structures?" },
+                    { "id": 2, "title": "Importance of Algorithms" }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "title": "Arrays and Lists",
+                  "lessons": [
+                    { "id": 1, "title": "Introduction to Arrays" },
+                    { "id": 2, "title": "Singly Linked Lists" },
+                    { "id": 3, "title": "Doubly Linked Lists" }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "title": "Stacks and Queues",
+                  "lessons": [
+                    { "id": 1, "title": "Stack Operations" },
+                    { "id": 2, "title": "Queue Operations" },
+                    { "id": 3, "title": "Applications of Stacks and Queues" }
+                  ]
+                },
+                {
+                  "id": 4,
+                  "title": "Sorting Algorithms",
+                  "lessons": [
+                    { "id": 1, "title": "Bubble Sort" },
+                    { "id": 2, "title": "Selection Sort" },
+                    { "id": 3, "title": "Insertion Sort" },
+                    { "id": 4, "title": "Merge Sort" },
+                    { "id": 5, "title": "Quick Sort" }
+                  ]
+                },
+                {
+                  "id": 5,
+                  "title": "Trees and Graphs",
+                  "lessons": [
+                    { "id": 1, "title": "Binary Trees" },
+                    { "id": 2, "title": "Binary Search Trees" },
+                    { "id": 3, "title": "Introduction to Graphs" },
+                    { "id": 4, "title": "Graph Traversals" }
+                  ]
+                }
+              ]
+            },
+            {
+                "course_id": 5,
+                "title": "System Design & Analysis",
+                "modules": [
+                  {
+                    "id": 1,
+                    "title": "Introduction to System Design",
+                    "lessons": [
+                      { "id": 1, "title": "What is System Design?" },
+                      { "id": 2, "title": "Understanding System Requirements" }
+                    ]
+                  },
+                  {
+                    "id": 2,
+                    "title": "Architectural Patterns",
+                    "lessons": [
+                      { "id": 1, "title": "Client-Server Architecture" },
+                      { "id": 2, "title": "Microservices" },
+                      { "id": 3, "title": "Monolithic Architecture" }
+                    ]
+                  },
+                  {
+                    "id": 3,
+                    "title": "Data Flow and Storage",
+                    "lessons": [
+                      { "id": 1, "title": "Data Flow Diagrams" },
+                      { "id": 2, "title": "Database Design" },
+                      { "id": 3, "title": "Data Storage Techniques" },
+                      { "id": 4, "title": "Caching" }
+                    ]
+                  },
+                  {
+                    "id": 4,
+                    "title": "Scalability and Reliability",
+                    "lessons": [
+                      { "id": 1, "title": "Load Balancing" },
+                      { "id": 2, "title": "Failover Mechanisms" }
+                    ]
+                  },
+                  {
+                    "id": 5,
+                    "title": "Case Studies",
+                    "lessons": [
+                      { "id": 1, "title": "Designing a Social Media Platform" },
+                      { "id": 2, "title": "Designing an E-commerce System" },
+                      { "id": 3, "title": "Real-World System Design Challenges" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "course_id": 6,
+                "title": "UI/UX Design Basics",
+                "modules": [
+                  {
+                    "id": 1,
+                    "title": "Introduction to UI/UX",
+                    "lessons": [
+                      { "id": 1, "title": "What is UI/UX?" },
+                      { "id": 2, "title": "Importance of Design in Product Development" }
+                    ]
+                  },
+                  {
+                    "id": 2,
+                    "title": "User Research",
+                    "lessons": [
+                      { "id": 1, "title": "Conducting User Interviews" },
+                      { "id": 2, "title": "Analyzing User Data" },
+                      { "id": 3, "title": "Building User Personas" }
+                    ]
+                  },
+                  {
+                    "id": 3,
+                    "title": "Design Principles",
+                    "lessons": [
+                      { "id": 1, "title": "Color Theory" },
+                      { "id": 2, "title": "Typography" },
+                      { "id": 3, "title": "Layout and Composition" },
+                      { "id": 4, "title": "Consistency in Design" }
+                    ]
+                  },
+                  {
+                    "id": 4,
+                    "title": "Prototyping and Wireframing",
+                    "lessons": [
+                      { "id": 1, "title": "Creating Wireframes" },
+                      { "id": 2, "title": "Using Figma for Prototyping" },
+                      { "id": 3, "title": "User Testing with Prototypes" }
+                    ]
+                  },
+                  {
+                    "id": 5,
+                    "title": "UI/UX Tools",
+                    "lessons": [
+                      { "id": 1, "title": "Introduction to Figma" },
+                      { "id": 2, "title": "Sketch Basics" },
+                      { "id": 3, "title": "Adobe XD for UI/UX" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "course_id": 7,
+                "title": "Web Design Basics",
+                "modules": [
+                  {
+                    "id": 1,
+                    "title": "HTML Basics",
+                    "lessons": [
+                      { "id": 1, "title": "HTML Structure" },
+                      { "id": 2, "title": "Common HTML Tags" }
+                    ]
+                  },
+                  {
+                    "id": 2,
+                    "title": "CSS Fundamentals",
+                    "lessons": [
+                      { "id": 1, "title": "Selectors and Properties" },
+                      { "id": 2, "title": "Box Model" },
+                      { "id": 3, "title": "Flexbox and Grid" }
+                    ]
+                  },
+                  {
+                    "id": 3,
+                    "title": "JavaScript Basics",
+                    "lessons": [
+                      { "id": 1, "title": "JavaScript Syntax" },
+                      { "id": 2, "title": "DOM Manipulation" },
+                      { "id": 3, "title": "Events in JavaScript" },
+                      { "id": 4, "title": "Basic Animations" }
+                    ]
+                  },
+                  {
+                    "id": 4,
+                    "title": "Responsive Design",
+                    "lessons": [
+                      { "id": 1, "title": "Media Queries" },
+                      { "id": 2, "title": "Mobile-first Design" }
+                    ]
+                  },
+                  {
+                    "id": 5,
+                    "title": "SEO Basics",
+                    "lessons": [
+                      { "id": 1, "title": "Introduction to SEO" },
+                      { "id": 2, "title": "On-page Optimization" },
+                      { "id": 3, "title": "SEO Best Practices" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "course_id": 8,
+                "title": "Cloud Computing Basics",
+                "modules": [
+                  {
+                    "id": 1,
+                    "title": "Introduction to Cloud Computing",
+                    "lessons": [
+                      { "id": 1, "title": "Cloud Computing Overview" },
+                      { "id": 2, "title": "Types of Cloud Services" }
+                    ]
+                  },
+                  {
+                    "id": 2,
+                    "title": "Infrastructure as a Service (IaaS)",
+                    "lessons": [
+                      { "id": 1, "title": "Virtual Machines" },
+                      { "id": 2, "title": "Storage Services" },
+                      { "id": 3, "title": "Networking in IaaS" }
+                    ]
+                  },
+                  {
+                    "id": 3,
+                    "title": "Platform as a Service (PaaS)",
+                    "lessons": [
+                      { "id": 1, "title": "App Deployment" },
+                      { "id": 2, "title": "Database Management" },
+                      { "id": 3, "title": "Scaling Applications" }
+                    ]
+                  },
+                  {
+                    "id": 4,
+                    "title": "Software as a Service (SaaS)",
+                    "lessons": [
+                      { "id": 1, "title": "Introduction to SaaS" },
+                      { "id": 2, "title": "Examples of SaaS Solutions" }
+                    ]
+                  },
+                  {
+                    "id": 5,
+                    "title": "Cloud Security Basics",
+                    "lessons": [
+                      { "id": 1, "title": "Data Protection" },
+                      { "id": 2, "title": "Identity and Access Management" },
+                      { "id": 3, "title": "Compliance and Regulations" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "course_id": 9,
+                "title": "Data Science Basics",
+                "modules": [
+                  {
+                    "id": 1,
+                    "title": "Introduction to Data Science",
+                    "lessons": [
+                      { "id": 1, "title": "What is Data Science?" },
+                      { "id": 2, "title": "Data Science Applications" }
+                    ]
+                  },
+                  {
+                    "id": 2,
+                    "title": "Data Collection and Cleaning",
+                    "lessons": [
+                      { "id": 1, "title": "Data Sources" },
+                      { "id": 2, "title": "Data Cleaning Techniques" },
+                      { "id": 3, "title": "Handling Missing Data" }
+                    ]
+                  },
+                  {
+                    "id": 3,
+                    "title": "Exploratory Data Analysis (EDA)",
+                    "lessons": [
+                      { "id": 1, "title": "Data Visualization Basics" },
+                      { "id": 2, "title": "Summary Statistics" },
+                      { "id": 3, "title": "Identifying Patterns" }
+                    ]
+                  },
+                  {
+                    "id": 4,
+                    "title": "Introduction to Machine Learning",
+                    "lessons": [
+                      { "id": 1, "title": "Supervised vs Unsupervised Learning" },
+                      { "id": 2, "title": "Regression and Classification" }
+                    ]
+                  },
+                  {
+                    "id": 5,
+                    "title": "Model Evaluation",
+                    "lessons": [
+                      { "id": 1, "title": "Evaluating Model Accuracy" },
+                      { "id": 2, "title": "Cross-validation" },
+                      { "id": 3, "title": "Confusion Matrix" },
+                      { "id": 4, "title": "ROC Curve" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "course_id": 10,
+                "title": "Artificial Intelligence Basics",
+                "modules": [
+                  {
+                    "id": 1,
+                    "title": "Introduction to AI",
+                    "lessons": [
+                      { "id": 1, "title": "What is Artificial Intelligence?" },
+                      { "id": 2, "title": "History and Evolution of AI" }
+                    ]
+                  },
+                  {
+                    "id": 2,
+                    "title": "Machine Learning Basics",
+                    "lessons": [
+                      { "id": 1, "title": "Understanding ML Models" },
+                      { "id": 2, "title": "Supervised Learning" },
+                      { "id": 3, "title": "Unsupervised Learning" }
+                    ]
+                  },
+                  {
+                    "id": 3,
+                    "title": "Deep Learning Foundations",
+                    "lessons": [
+                      { "id": 1, "title": "Neural Networks" },
+                      { "id": 2, "title": "Activation Functions" },
+                      { "id": 3, "title": "Training Neural Networks" }
+                    ]
+                  },
+                  {
+                    "id": 4,
+                    "title": "AI Ethics and Safety",
+                    "lessons": [
+                      { "id": 1, "title": "Ethics in AI" },
+                      { "id": 2, "title": "Bias in AI Models" },
+                      { "id": 3, "title": "Safety Concerns" }
+                    ]
+                  },
+                  {
+                    "id": 5,
+                    "title": "AI in Practice",
+                    "lessons": [
+                      { "id": 1, "title": "AI in Healthcare" },
+                      { "id": 2, "title": "AI in Finance" },
+                      { "id": 3, "title": "AI in Robotics" },
+                      { "id": 4, "title": "AI in Autonomous Vehicles" }
+                    ]
+                  }
+                ]
+              }
+          ]
+          
 }
